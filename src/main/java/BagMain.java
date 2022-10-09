@@ -15,7 +15,12 @@ class BagMain {
      * on new Bag types (and HandBag subclasses)!
      */
     public static void enhanceBags(Bag[] bags, boolean double_enhance_handbags) {
-        // TODO: Implement this.
+        for (int i=0; i<bags.length; i++) {
+            bags[i].enhance();
+            if (double_enhance_handbags && bags[i] instanceof HandBag) {
+                bags[i].enhance();
+            }
+        }
     }
 
     /**
@@ -29,5 +34,13 @@ class BagMain {
      */
     public static int countCrossbodyStraps(Bag[] bags) {
         // TODO: Implement this.
+        int numOfStraps = 0;
+        for (int i=0; i<bags.length; i++) {
+            if (bags[i] instanceof CrossbodyBag) {
+                numOfStraps = numOfStraps + ( (CrossbodyBag)bags[i]).getNumberOfStraps();
+            }
+        }
+
+        return numOfStraps;
     }
 }
