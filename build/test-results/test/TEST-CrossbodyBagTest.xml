@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CrossbodyBagTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-09T19:08:15" hostname="WADDLED" time="0.02">
+<testsuite name="CrossbodyBagTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-09T19:26:47" hostname="WADDLED" time="0.019">
   <properties/>
-  <testcase name="TestToString" classname="CrossbodyBagTest" time="0.016"/>
-  <testcase name="TestEnhance" classname="CrossbodyBagTest" time="0.003"/>
+  <testcase name="TestToString" classname="CrossbodyBagTest" time="0.017"/>
+  <testcase name="TestEnhance" classname="CrossbodyBagTest" time="0.001"/>
   <testcase name="TestGetNumberOfStraps" classname="CrossbodyBagTest" time="0.001"/>
-  <system-out><![CDATA[Blue Crossbody Bag with 2 straps (0 / 6)
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
